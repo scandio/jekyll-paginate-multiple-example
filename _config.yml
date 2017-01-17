@@ -38,4 +38,7 @@ exclude:
 paginate_multiple:
   - paginate: 2
     paginate_path: '/page:num/'
-    sub_dir: '/'
+    sub_dir: '/en'
+  - paginate: 2
+    paginate_path: '/de/page:num/'
+    sub_dir: '/de'
