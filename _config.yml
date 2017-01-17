@@ -37,8 +37,8 @@ exclude:
 
 paginate_multiple:
   - paginate: 2
-    paginate_path: '/page:num/'
-    sub_dir: '/en'
+    paginate_path: '/blog/page:num'
+    sub_dir: '/all'
   - paginate: 2
-    paginate_path: '/de/page:num/'
-    sub_dir: '/de'
+    paginate_path: '/page:num'
+    sub_dir: '/all'
